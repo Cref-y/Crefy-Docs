@@ -1,6 +1,17 @@
 [book]
-authors = ["crefy"]
+title = " Crefy"
+authors = ["buidlabz"]
+description = "The book is a guide to crefy network"
 language = "en"
 multilingual = false
 src = "src"
-title = "Crefy-Docs"
+text-direction= "ltr"
+
+[output.html]
+default-theme = "dark"
+preferred-dark-theme = "navy"
+additional-css = ["general.css"]
+additional-js = ["custom.js"]
+site-url = "https://Cref-y.github.io/Crefy-Docs"
+git-repository-url = "https://github.com/Cref-y/Crefy-Docs.git"
+git-repository-icon = "fa-github"
